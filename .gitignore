@@ -1,0 +1,43 @@
+# SOURCE CODE - Keep Local Only
+src/
+scripts/
+public/
+package.json
+package-lock.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+.env.example
+DEPLOY.md
+
+# Development files
+node_modules
+dist/
+*.local
+.npm-cache
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Old files (replaced by React version)
+script.js
+styles.css
+animation.css
+components.css
